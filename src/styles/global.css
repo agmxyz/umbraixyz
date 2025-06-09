@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* Essential custom styles that Tailwind doesn't handle well */
+
+/* Navigation backdrop blur effect */
+.nav {
+  backdrop-filter: blur(10px);
+}
+
+/* Hamburger menu animations */
+.hamburger .line {
+  transition: all 0.3s ease;
+  transform-origin: center;
+}
+
+.hamburger.active .line:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.active .line:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .line:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -6px);
+}
+
+/* Mobile menu toggle */
+.mobile-menu.active {
+  display: flex;
+}

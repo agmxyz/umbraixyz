@@ -1,0 +1,12 @@
+<svg width="600" height="200" viewBox="0 0 600 200" fill="none"
+  xmlns="http://www.w3.org/2000/svg">
+  <!-- Large background circle -->
+  <circle cx="100" cy="100" r="80" stroke="#000000" stroke-width="1" fill="none" opacity="0.05"/>
+
+  <!-- Center dot -->
+  <!-- <circle cx="100" cy="100" r="6" fill="#000000" opacity="0.05"/> -->
+  <circle cx="16" cy="16" r="2" fill="#000000"/>
+
+  <!-- umbrai text - large -->
+  <text x="220" y="115" font-family="Inter, system-ui, sans-serif" font-size="72" font-weight="200" fill="#000000" opacity="0.02">umbrai</text>
+</svg>

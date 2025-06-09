@@ -1,0 +1,351 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout
+  title="umbrai Dashboard - Real-time AI Privacy Monitoring | GDPR Compliance"
+  description="Monitor your on-device AI privacy protection in real-time. View data anonymization statistics, protected applications, and audit trail for GDPR compliance."
+  canonical="https://umbrai.xyz/dashboard"
+>
+  <!-- Dashboard Container -->
+  <section class="min-h-screen py-8" style="background-color: #F2F2F2;">
+    <div class="max-w-6xl mx-auto px-6">
+      <!-- Header -->
+      <div class="mb-8">
+        <h1 class="text-3xl font-light mb-2" style="color: #000000;">
+          Umbrai Dashboard Example
+        </h1>
+        <p class="text-lg" style="color: #000000; opacity: 0.7;">
+          Real-time privacy protection monitoring
+        </p>
+      </div>
+
+      <!-- Status Toggle -->
+      <div class="mb-8 p-6 rounded-xl" style="background-color: #000000;">
+        <div class="flex items-center justify-between">
+          <div>
+            <h2 class="text-xl font-medium mb-1" style="color: #F2F2F2;">
+              Privacy Protection Status
+            </h2>
+            <p style="color: #F2F2F2; opacity: 0.7;">
+              All data anonymization active
+            </p>
+          </div>
+          <div class="flex items-center">
+            <div class="relative">
+              <div
+                class="w-16 h-8 rounded-full"
+                style="background-color: #D9EAFD;"
+              >
+                <div
+                  class="absolute top-1 right-1 w-6 h-6 rounded-full transition-all duration-300"
+                  style="background-color: #000000; box-shadow: 0 0 20px rgba(217, 234, 253, 0.8);"
+                >
+                </div>
+              </div>
+            </div>
+            <span class="ml-3 text-sm font-medium" style="color: #D9EAFD;"
+              >Active</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Metrics Cards -->
+      <div class="grid md:grid-cols-2 gap-6 mb-8">
+        <!-- Data Protected Card -->
+        <div class="p-6 rounded-xl" style="background-color: #000000;">
+          <div class="flex items-center justify-between mb-4">
+            <h3 class="text-lg font-medium" style="color: #F2F2F2;">
+              Data Protected
+            </h3>
+            <div
+              class="w-2 h-2 rounded-full"
+              style="background-color: #D9EAFD;"
+            >
+            </div>
+          </div>
+          <div class="mb-4">
+            <div class="text-4xl font-light mb-2" style="color: #F2F2F2;">
+              3.4 GB
+            </div>
+            <p class="text-sm" style="color: #F2F2F2; opacity: 0.7;">
+              Anonymized this month
+            </p>
+          </div>
+          <!-- Simple sparkline mockup -->
+          <div class="flex items-end space-x-1 h-8">
+            <div
+              class="w-1 h-3 rounded-full"
+              style="background-color: #D9EAFD; opacity: 0.6;"
+            >
+            </div>
+            <div
+              class="w-1 h-5 rounded-full"
+              style="background-color: #D9EAFD; opacity: 0.7;"
+            >
+            </div>
+            <div
+              class="w-1 h-4 rounded-full"
+              style="background-color: #D9EAFD; opacity: 0.8;"
+            >
+            </div>
+            <div
+              class="w-1 h-6 rounded-full"
+              style="background-color: #D9EAFD; opacity: 0.9;"
+            >
+            </div>
+            <div
+              class="w-1 h-8 rounded-full"
+              style="background-color: #D9EAFD;"
+            >
+            </div>
+            <div
+              class="w-1 h-5 rounded-full"
+              style="background-color: #D9EAFD; opacity: 0.8;"
+            >
+            </div>
+            <div
+              class="w-1 h-7 rounded-full"
+              style="background-color: #D9EAFD; opacity: 0.9;"
+            >
+            </div>
+          </div>
+        </div>
+
+        <!-- Last Activity Card -->
+        <div class="p-6 rounded-xl" style="background-color: #000000;">
+          <div class="flex items-center justify-between mb-4">
+            <h3 class="text-lg font-medium" style="color: #F2F2F2;">
+              Last Activity
+            </h3>
+            <svg
+              class="w-5 h-5"
+              style="color: #D9EAFD;"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </div>
+          <div class="mb-2">
+            <div class="text-2xl font-light mb-1" style="color: #F2F2F2;">
+              Today, 10:30 AM
+            </div>
+            <div class="text-lg" style="color: #F2F2F2; opacity: 0.9;">CET</div>
+          </div>
+          <p class="text-sm" style="color: #F2F2F2; opacity: 0.7;">
+            ChatGPT session protected
+          </p>
+        </div>
+      </div>
+
+      <!-- Protected Apps -->
+      <div class="mb-8">
+        <h3 class="text-lg font-medium mb-4" style="color: #000000;">
+          Protected Applications
+        </h3>
+        <div class="flex flex-wrap gap-3">
+          <div
+            class="px-4 py-2 rounded-full border-2"
+            style="background-color: #D9EAFD; border-color: #D9EAFD; color: #000000;"
+          >
+            <span class="text-sm font-medium">Chrome</span>
+          </div>
+          <div
+            class="px-4 py-2 rounded-full border-2"
+            style="background-color: #D9EAFD; border-color: #D9EAFD; color: #000000;"
+          >
+            <span class="text-sm font-medium">Cursor</span>
+          </div>
+          <div
+            class="px-4 py-2 rounded-full border-2"
+            style="background-color: #D9EAFD; border-color: #D9EAFD; color: #000000;"
+          >
+            <span class="text-sm font-medium">ChatGPT</span>
+          </div>
+          <div
+            class="px-4 py-2 rounded-full border-2"
+            style="background-color: #D9EAFD; border-color: #D9EAFD; color: #000000;"
+          >
+            <span class="text-sm font-medium">Gmail</span>
+          </div>
+          <div
+            class="px-4 py-2 rounded-full border-2"
+            style="background-color: #F2F2F2; border-color: #000000; color: #000000;"
+          >
+            <span class="text-sm font-medium">+ Add App</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Audit Trail -->
+      <div class="grid lg:grid-cols-3 gap-6">
+        <div class="lg:col-span-2">
+          <h3 class="text-lg font-medium mb-4" style="color: #000000;">
+            Recent Activity
+          </h3>
+          <div class="space-y-3 max-h-96 overflow-y-auto">
+            <!-- Activity Item -->
+            <div
+              class="p-4 rounded-lg border"
+              style="background-color: #F2F2F2; border-color: #000000;"
+            >
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-sm font-medium" style="color: #000000;"
+                  >ChatGPT Session</span
+                >
+                <span class="text-xs" style="color: #000000; opacity: 0.6;"
+                  >10:30 AM</span
+                >
+              </div>
+              <p class="text-sm mb-2" style="color: #000000; opacity: 0.8;">
+                Anonymized 3 PII instances, 1 email address
+              </p>
+              <div
+                class="text-xs px-2 py-1 rounded-full inline-block"
+                style="background-color: #D9EAFD; color: #000000;"
+              >
+                Protected
+              </div>
+            </div>
+
+            <!-- Activity Item -->
+            <div
+              class="p-4 rounded-lg border"
+              style="background-color: #F2F2F2; border-color: #000000;"
+            >
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-sm font-medium" style="color: #000000;"
+                  >Gmail Compose</span
+                >
+                <span class="text-xs" style="color: #000000; opacity: 0.6;"
+                  >09:45 AM</span
+                >
+              </div>
+              <p class="text-sm mb-2" style="color: #000000; opacity: 0.8;">
+                Masked 2 phone numbers, 1 IBAN
+              </p>
+              <div
+                class="text-xs px-2 py-1 rounded-full inline-block"
+                style="background-color: #D9EAFD; color: #000000;"
+              >
+                Protected
+              </div>
+            </div>
+
+            <!-- Activity Item -->
+            <div
+              class="p-4 rounded-lg border"
+              style="background-color: #F2F2F2; border-color: #000000;"
+            >
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-sm font-medium" style="color: #000000;"
+                  >Cursor IDE</span
+                >
+                <span class="text-xs" style="color: #000000; opacity: 0.6;"
+                  >09:12 AM</span
+                >
+              </div>
+              <p class="text-sm mb-2" style="color: #000000; opacity: 0.8;">
+                Redacted API keys, database credentials
+              </p>
+              <div
+                class="text-xs px-2 py-1 rounded-full inline-block"
+                style="background-color: #D9EAFD; color: #000000;"
+              >
+                Protected
+              </div>
+            </div>
+
+            <!-- Activity Item -->
+            <div
+              class="p-4 rounded-lg border"
+              style="background-color: #F2F2F2; border-color: #000000;"
+            >
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-sm font-medium" style="color: #000000;"
+                  >Chrome Browser</span
+                >
+                <span class="text-xs" style="color: #000000; opacity: 0.6;"
+                  >08:33 AM</span
+                >
+              </div>
+              <p class="text-sm mb-2" style="color: #000000; opacity: 0.8;">
+                Protected form submission with customer data
+              </p>
+              <div
+                class="text-xs px-2 py-1 rounded-full inline-block"
+                style="background-color: #D9EAFD; color: #000000;"
+              >
+                Protected
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Report Button -->
+        <div class="lg:col-span-1">
+          <h3 class="text-lg font-medium mb-4" style="color: #000000;">
+            Compliance
+          </h3>
+          <div
+            class="p-6 rounded-xl text-center"
+            style="background-color: #000000;"
+          >
+            <svg
+              class="w-12 h-12 mx-auto mb-4"
+              style="color: #D9EAFD;"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+              ></path>
+            </svg>
+            <h4 class="text-lg font-medium mb-2" style="color: #F2F2F2;">
+              Monthly Report
+            </h4>
+            <p class="text-sm mb-6" style="color: #F2F2F2; opacity: 0.7;">
+              GDPR compliance summary and audit logs
+            </p>
+            <button
+              class="w-full px-6 py-3 rounded-lg text-sm font-medium hover:opacity-90 transition-all"
+              style="background-color: #D9EAFD; color: #000000;"
+            >
+              View Detailed Report
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  /* Add subtle glow effects */
+  .glow {
+    box-shadow: 0 0 20px rgba(217, 234, 253, 0.3);
+  }
+
+  /* Smooth scrolling for audit trail */
+  .overflow-y-auto::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .overflow-y-auto::-webkit-scrollbar-track {
+    background: #f2f2f2;
+  }
+
+  .overflow-y-auto::-webkit-scrollbar-thumb {
+    background: #d9eafd;
+    border-radius: 2px;
+  }
+</style>

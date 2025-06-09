@@ -1,0 +1,21 @@
+{
+  "name": "umbrai",
+  "short_name": "umbrai",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F2F2F2",
+  "theme_color": "#000000",
+  "description": "On-device data anonymization for EU businesses using AI services",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/svg+xml"
+    }
+  ]
+}

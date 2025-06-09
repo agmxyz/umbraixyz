@@ -1,0 +1,10 @@
+<npx wrangler pages deploy ./dist svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" style="background: #F2F2F2;">
+    <!-- Logo -->
+    <circle cx="350" cy="315" r="80" stroke="#000000" stroke-width="3" fill="none"/>
+    <circle cx="350" cy="315" r="8" fill="#000000"/>
+
+    <!-- Text -->
+    <text x="480" y="300" font-family="Arial, sans-serif" font-size="48" font-weight="600" fill="#000000">umbrai</text>
+    <text x="480" y="350" font-family="Arial, sans-serif" font-size="28" fill="#000000">On-device AI privacy for EU businesses</text>
+    <text x="480" y="390" font-family="Arial, sans-serif" font-size="24" fill="#666666">GDPR-compliant data anonymization</text>
+</svg> 
