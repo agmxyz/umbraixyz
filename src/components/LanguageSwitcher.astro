@@ -1,0 +1,80 @@
+---
+import { languages, getLangFromUrl, translatePath } from '../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+let currentPath = Astro.url.pathname.replace(/^\/(es|de)/, '') || '/';
+
+// If user is on dashboard, redirect to home page when changing language
+// since dashboard is English-only
+if (currentPath === '/dashboard') {
+  currentPath = '/';
+}
+---
+
+<div class="relative inline-block text-left">
+  <button
+    type="button"
+    class="inline-flex items-center px-3 py-2 text-sm font-medium hover:opacity-70 transition-opacity"
+    style="color: #000000;"
+    id="language-menu-button"
+    aria-expanded="false"
+    aria-haspopup="true"
+  >
+    <span class="mr-2">{languages[lang]}</span>
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+    </svg>
+  </button>
+
+  <div
+    class="absolute right-0 z-10 mt-2 w-40 origin-top-right rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none hidden"
+    style="background-color: #F2F2F2;"
+    id="language-menu"
+    role="menu"
+    aria-orientation="vertical"
+    aria-labelledby="language-menu-button"
+  >
+    <div class="py-1" role="none">
+      {Object.entries(languages).map(([code, name]) => (
+        <a
+          href={translatePath(currentPath, code)}
+          class={`block px-4 py-2 text-sm hover:opacity-70 transition-opacity ${
+            code === lang ? 'font-medium' : ''
+          }`}
+          style={`color: #000000; ${code === lang ? 'background-color: #D9EAFD;' : ''}`}
+          role="menuitem"
+        >
+          {name}
+        </a>
+      ))}
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const button = document.getElementById('language-menu-button');
+    const menu = document.getElementById('language-menu');
+    
+    if (button && menu) {
+      button.addEventListener('click', function() {
+        const isHidden = menu.classList.contains('hidden');
+        if (isHidden) {
+          menu.classList.remove('hidden');
+          button.setAttribute('aria-expanded', 'true');
+        } else {
+          menu.classList.add('hidden');
+          button.setAttribute('aria-expanded', 'false');
+        }
+      });
+
+      // Close menu when clicking outside
+      document.addEventListener('click', function(event) {
+        if (!button.contains(event.target as Node) && !menu.contains(event.target as Node)) {
+          menu.classList.add('hidden');
+          button.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }
+  });
+</script>

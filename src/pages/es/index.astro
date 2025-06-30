@@ -1,15 +1,15 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import Layout from "../../layouts/Layout.astro";
+import { useTranslations } from '../../i18n/utils';
 
-const lang = getLangFromUrl(Astro.url);
+const lang = 'es';
 const t = useTranslations(lang);
 ---
 
 <Layout
   title={t('site.title')}
   description={t('site.description')}
-  canonical="https://umbrai.xyz"
+  canonical="https://umbrai.xyz/es/"
 >
   <!-- Hero Section -->
   <section
@@ -276,22 +276,22 @@ const t = useTranslations(lang);
               class="px-6 py-4 rounded-lg border text-left"
               style="background-color: #F2F2F2; border-color: #000000; color: #000000;"
             >
-              "Review contract for <span
+              "Revisar contrato para <span
                 class="px-1 rounded"
                 style="background-color: #D9EAFD; color: #000000;"
-                >[PATIENT_NAME]</span
-              > regarding <span
+                >[NOMBRE_PACIENTE]</span
+              > sobre tratamiento de <span
                 class="px-1 rounded"
                 style="background-color: #D9EAFD; color: #000000;"
-                >[AMOUNT]</span
-              > treatment at <span
+                >[CANTIDAD]</span
+              > en <span
                 class="px-1 rounded"
                 style="background-color: #D9EAFD; color: #000000;"
-                >[FACILITY]</span
-              >, account <span
+                >[CENTRO_MEDICO]</span
+              >, cuenta <span
                 class="px-1 rounded"
                 style="background-color: #D9EAFD; color: #000000;"
-                >[IBAN_MASKED]</span
+                >[IBAN_ENMASCARADO]</span
               >"
             </div>
           </div>
@@ -333,13 +333,13 @@ const t = useTranslations(lang);
               style="background-color: #000000;"
             >
               <div class="text-sm font-medium mb-2" style="color: #F2F2F2;">
-                Status
+                Estado
               </div>
               <div
                 class="text-xs px-2 py-1 rounded-full inline-block mb-2"
                 style="background-color: #D9EAFD; color: #000000;"
               >
-                ● Active
+                ● Activo
               </div>
             </div>
 
@@ -349,7 +349,7 @@ const t = useTranslations(lang);
               style="background-color: #F2F2F2; border: 1px solid rgba(0,0,0,0.1);"
             >
               <div class="text-sm font-medium mb-2" style="color: #000000;">
-                Data Protected
+                Datos Protegidos
               </div>
               <div class="text-lg font-light" style="color: #000000;">
                 3.4 GB
@@ -362,7 +362,7 @@ const t = useTranslations(lang);
               style="background-color: #F2F2F2; border: 1px solid rgba(0,0,0,0.1);"
             >
               <div class="text-sm font-medium mb-2" style="color: #000000;">
-                Last Activity
+                Última Actividad
               </div>
               <div class="text-sm" style="color: #000000;">10:30 AM</div>
             </div>
@@ -371,7 +371,7 @@ const t = useTranslations(lang);
           <!-- Protected Apps -->
           <div class="mb-4">
             <div class="text-sm font-medium mb-3" style="color: #000000;">
-              Protected Apps
+              Aplicaciones Protegidas
             </div>
             <div class="flex flex-wrap gap-2">
               <span
@@ -396,7 +396,7 @@ const t = useTranslations(lang);
           <!-- Recent Activity Preview -->
           <div>
             <div class="text-sm font-medium mb-3" style="color: #000000;">
-              Recent Activity
+              Actividad Reciente
             </div>
             <div class="space-y-2">
               <div
@@ -404,7 +404,7 @@ const t = useTranslations(lang);
                 style="background-color: #F2F2F2; border: 1px solid rgba(0,0,0,0.1);"
               >
                 <div class="flex justify-between items-center">
-                  <span style="color: #000000;">ChatGPT session protected</span>
+                  <span style="color: #000000;">Sesión ChatGPT protegida</span>
                   <span
                     class="text-xs px-2 py-1 rounded-full"
                     style="background-color: #D9EAFD; color: #000000;">✓</span
@@ -416,7 +416,7 @@ const t = useTranslations(lang);
                 style="background-color: #F2F2F2; border: 1px solid rgba(0,0,0,0.1);"
               >
                 <div class="flex justify-between items-center">
-                  <span style="color: #000000;">Gmail compose protected</span>
+                  <span style="color: #000000;">Redacción Gmail protegida</span>
                   <span
                     class="text-xs px-2 py-1 rounded-full"
                     style="background-color: #D9EAFD; color: #000000;">✓</span

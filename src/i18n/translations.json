@@ -1,0 +1,221 @@
+{
+  "en": {
+    "site": {
+      "title": "umbrai - On-Device AI Privacy Protection | GDPR Compliance for EU Businesses",
+      "description": "Prevent data disclosure to LLMs with on-device anonymization. GDPR-compliant AI privacy protection for European businesses. Secure your sensitive data before it leaves your machine.",
+      "name": "umbrai"
+    },
+    "navigation": {
+      "home": "Home",
+      "dashboard": "Dashboard"
+    },
+    "hero": {
+      "title": "umbrai",
+      "subtitle": "On-Device AI Privacy Protection",
+      "description": "Intercepts and anonymizes sensitive data before it leaves your computer. Prevents data leaks, reduces AI bias, ensures GDPR compliance.",
+      "cta": "Get in Touch",
+      "coming_soon": "cross-platform app coming soon"
+    },
+    "risks": {
+      "title": "AI Privacy Risks in the EU",
+      "subtitle": "EDPB identifies critical privacy vulnerabilities when using AI.",
+      "input_data": {
+        "title": "Input Data Risks",
+        "description": "Sensitive data in prompts gets exposed to third-party AI services."
+      },
+      "output_data": {
+        "title": "Output Data Risks", 
+        "description": "LLMs memorize and regenerate sensitive information, creating biased outputs."
+      },
+      "training_data": {
+        "title": "Training Data Risks",
+        "description": "Personal data in training sets creates compliance and bias issues."
+      },
+      "security": {
+        "title": "Security Risks",
+        "description": "Prompt injection attacks can extract sensitive information."
+      }
+    },
+    "solution": {
+      "title": "Privacy by Design: On-Device Protection",
+      "video_intro": "See Umbrai in action:",
+      "example_before": "What the user types:",
+      "example_after": "What AI services receive:",
+      "example_text": "Review contract for patient John Smith (DOB: 15/03/1980) regarding €25,000 treatment at Munich Medical Center, account DE89370400440532013000",
+      "process_label": "Umbrai Anonymizes On-Device",
+      "description": "Sensitive data never leaves your device. LLMs receive only anonymized data, reducing bias and ensuring GDPR compliance.",
+      "dashboard_title": "Monitor & Control Everything",
+      "dashboard_subtitle": "Umbrai Dashboard Example",
+      "dashboard_description": "Real-time privacy protection monitoring",
+      "dashboard_cta": "View Full Example Dashboard →"
+    },
+    "benefits": {
+      "title": "EU-Compliant Privacy Protection",
+      "data_minimization": {
+        "title": "Data Minimization",
+        "description": "Only anonymized data reaches AI providers"
+      },
+      "real_time": {
+        "title": "Real-time Anonymization", 
+        "description": "Automatic detection and masking of sensitive data"
+      },
+      "audit_trail": {
+        "title": "Compliance Audit Trail",
+        "description": "Local audit logs for GDPR compliance"
+      }
+    },
+    "contact": {
+      "cta": "Get in Touch",
+      "coming_soon": "cross-platform app coming soon."
+    },
+    "footer": {
+      "copyright": "© 2025 umbrai"
+    }
+  },
+  "es": {
+    "site": {
+      "title": "umbrai - Protección de Privacidad de IA On-Device | Cumplimiento GDPR para Empresas UE",
+      "description": "Previene la divulgación de datos a LLMs con anonimización on-device. Protección de privacidad de IA compatible con GDPR para empresas europeas.",
+      "name": "umbrai"
+    },
+    "navigation": {
+      "home": "Inicio",
+      "dashboard": "Dashboard"
+    },
+    "hero": {
+      "title": "umbrai",
+      "subtitle": "Protección de Privacidad de IA On-Device",
+      "description": "Intercepta y anonimiza datos sensibles antes de que salgan de tu ordenador. Previene data leaks, reduce sesgos de IA, garantiza cumplimiento GDPR.",
+      "cta": "Contactar",
+      "coming_soon": "app multiplataforma próximamente"
+    },
+    "risks": {
+      "title": "Riesgos de Privacidad de IA en la UE",
+      "subtitle": "EDPB identifica vulnerabilidades críticas de privacidad al usar IA.",
+      "input_data": {
+        "title": "Riesgos de Input Data",
+        "description": "Datos sensibles en prompts se exponen a servicios de IA de terceros."
+      },
+      "output_data": {
+        "title": "Riesgos de Output Data",
+        "description": "LLMs memorizan y regeneran información sensible, creando outputs sesgados."
+      },
+      "training_data": {
+        "title": "Riesgos de Training Data",
+        "description": "Datos personales en datasets de entrenamiento crean problemas de compliance y sesgo."
+      },
+      "security": {
+        "title": "Riesgos de Seguridad",
+        "description": "Ataques de prompt injection pueden extraer información sensible."
+      }
+    },
+    "solution": {
+      "title": "Privacy by Design: Protección On-Device",
+      "video_intro": "Ve Umbrai en acción:",
+      "example_before": "Lo que escribe el usuario:",
+      "example_after": "Lo que reciben los servicios de IA:",
+      "example_text": "Revisar contrato para paciente John Smith (DOB: 15/03/1980) sobre tratamiento de €25,000 en Munich Medical Center, cuenta DE89370400440532013000",
+      "process_label": "Umbrai Anonimiza On-Device",
+      "description": "Los datos sensibles nunca salen de tu dispositivo. Los LLMs reciben solo datos anonimizados, reduciendo sesgos y garantizando compliance GDPR.",
+      "dashboard_title": "Monitorea y Controla Todo",
+      "dashboard_subtitle": "Ejemplo de Dashboard Umbrai",
+      "dashboard_description": "Monitoreo de protección de privacidad en tiempo real",
+      "dashboard_cta": "Ver Dashboard de Ejemplo Completo →"
+    },
+    "benefits": {
+      "title": "Protección de Privacidad Compatible con UE",
+      "data_minimization": {
+        "title": "Data Minimization",
+        "description": "Solo datos anonimizados llegan a providers de IA"
+      },
+      "real_time": {
+        "title": "Anonimización Real-time",
+        "description": "Detección y masking automático de datos sensibles"
+      },
+      "audit_trail": {
+        "title": "Audit Trail de Compliance",
+        "description": "Logs de auditoría locales para compliance GDPR"
+      }
+    },
+    "contact": {
+      "cta": "Contactar",
+      "coming_soon": "app multiplataforma próximamente."
+    },
+    "footer": {
+      "copyright": "© 2025 umbrai"
+    }
+  },
+  "de": {
+    "site": {
+      "title": "umbrai - On-Device KI-Datenschutz | DSGVO-Konformität für EU-Unternehmen",
+      "description": "Verhindere Datenweitergabe an LLMs mit On-Device-Anonymisierung. DSGVO-konforme KI-Datenschutzlösung für europäische Unternehmen.",
+      "name": "umbrai"
+    },
+    "navigation": {
+      "home": "Startseite",
+      "dashboard": "Dashboard"
+    },
+    "hero": {
+      "title": "umbrai",
+      "subtitle": "On-Device KI-Datenschutz",
+      "description": "Fängt sensible Daten ab und anonymisiert sie, bevor sie deinen Computer verlassen. Verhindert Datenlecks, reduziert KI-Verzerrungen, gewährleistet DSGVO-Konformität.",
+      "cta": "Kontakt aufnehmen",
+      "coming_soon": "plattformübergreifende App kommt bald"
+    },
+    "risks": {
+      "title": "KI-Datenschutzrisiken in der EU",
+      "subtitle": "EDPB identifiziert kritische Datenschutzverletzbarkeiten bei KI-Nutzung.",
+      "input_data": {
+        "title": "Eingabedatenrisiken",
+        "description": "Sensible Daten in Prompts werden an Drittanbieter-KI-Services weitergegeben."
+      },
+      "output_data": {
+        "title": "Ausgabedatenrisiken",
+        "description": "LLMs merken sich und regenerieren sensible Informationen, wodurch verzerrte Ausgaben entstehen."
+      },
+      "training_data": {
+        "title": "Trainingsdatenrisiken",
+        "description": "Personal Data in Training Datasets verursachen Compliance- und Bias-Probleme."
+      },
+      "security": {
+        "title": "Sicherheitsrisiken",
+        "description": "Prompt Injection Attacks können sensitive Information extrahieren."
+      }
+    },
+    "solution": {
+      "title": "Privacy by Design: On-Device-Schutz",
+      "video_intro": "Sieh Umbrai in Aktion:",
+      "example_before": "Was der Benutzer eingibt:",
+      "example_after": "Was KI-Services erhalten:",
+      "example_text": "Vertrag prüfen für Patient John Smith (Geburtsdatum: 15/03/1980) bezüglich €25,000 Behandlung im Munich Medical Center, Konto DE89370400440532013000",
+      "process_label": "Umbrai Anonymisiert On-Device",
+      "description": "Sensible Daten verlassen nie dein Gerät. LLMs erhalten nur anonymisierte Daten, reduzieren Verzerrungen und gewährleisten DSGVO-Konformität.",
+      "dashboard_title": "Überwache und Kontrolliere Alles",
+      "dashboard_subtitle": "Umbrai Dashboard Beispiel",
+      "dashboard_description": "Echtzeit-Datenschutzüberwachung",
+      "dashboard_cta": "Vollständiges Beispiel-Dashboard anzeigen →"
+    },
+    "benefits": {
+      "title": "EU-konforme Datenschutzlösung",
+      "data_minimization": {
+        "title": "Datenminimierung",
+        "description": "Nur anonymisierte Daten erreichen KI-Anbieter"
+      },
+      "real_time": {
+        "title": "Echtzeit-Anonymisierung",
+        "description": "Automatische Erkennung und Maskierung sensibler Daten"
+      },
+      "audit_trail": {
+        "title": "Compliance-Prüfpfad",
+        "description": "Lokale Audit-Logs für DSGVO-Konformität"
+      }
+    },
+    "contact": {
+      "cta": "Kontakt aufnehmen",
+      "coming_soon": "plattformübergreifende App kommt bald."
+    },
+    "footer": {
+      "copyright": "© 2025 umbrai"
+    }
+  }
+}
